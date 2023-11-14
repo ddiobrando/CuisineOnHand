@@ -3,7 +3,7 @@ import openai
 import requests  # To make HTTP requests to the photo-gen API
 
 app = Flask(__name__)
-openai.api_key = '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'
+openai.api_key = "YOUR_OPENAI_KEY"
 
 @app.route('/')
 def index():
